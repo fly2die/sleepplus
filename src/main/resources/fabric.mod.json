@@ -3,7 +3,7 @@
 	"id": "sleepplus",
 	"version": "${version}",
 	"name": "Sleep+",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Sleep+ rewards players for sleeping through the night and helps them spot the monsters ruining their rest",
 	"authors": [
 		"F2D"
 	],

@@ -1,38 +1,32 @@
-# Sleep+
+## Sleep+
 
-A small Fabric mod for Minecraft 26.3 that makes sleeping more rewarding and helps you figure out why you can't fall asleep.
+**Make every night's sleep count.** Sleep+ rewards players for sleeping through the night and helps them spot the monsters ruining their rest.
 
-## ✨ Features
+---
 
-### 😴 Alertness Effect
-When a player wakes up **in the morning** (after sleeping through the night), they receive the **Alertness** effect for **5 minutes**:
-- **+10%** movement speed.
+### Features
 
-The effect is **not** applied if the player simply lies down and gets up immediately — you actually need to sleep until morning.
+#### Alertness — the reward for a good night's sleep
+Wake up in the morning after sleeping through the night and receive the **Alertness** effect for **5 minutes**:
+- **+10% movement speed**
 
-### 👹 Monster Highlighting
-If a player tries to sleep but nearby monsters are preventing it, they are **highlighted** (Glowing effect) for **3 seconds**. This helps you quickly find and deal with unwanted guests.
+![a](https://cdn.modrinth.com/data/oxNqVImV/images/4c4a930a7c07df3b48a9f016bc074cbfe618a9a2.gif)
 
-## 📦 Installation
+The effect is **not** granted if you just lie down and get up immediately — you actually have to sleep until dawn.
 
-1. Install **Fabric Loader** version `0.19.5+` for Minecraft `26.3`.
-2. Download and place the following into your `mods` folder:
-    - [Fabric API](https://modrinth.com/mod/fabric-api) `0.160.5+26.3` or newer
-    - **Sleep+** (this mod)
-3. Launch the game.
+#### Monster Highlighting — see what's keeping you awake
+Tried to sleep but something's blocking it? Nearby monsters that prevent sleeping are **highlighted** for **3 seconds**, so you can quickly find and deal with them.
 
-## ⚙️ Requirements
+![m](https://cdn.modrinth.com/data/oxNqVImV/images/44fc2cf9f978ea972100785fa4de80d4e0b2257b.gif)
 
-| Component | Version |
+---
+
+### How it works
+
+The mod is **fully automatic** — no commands, no items, no configuration required.
+
+| Action | Result |
 |---|---|
-| Minecraft | 26.3 |
-| Fabric Loader | 0.19.5+ |
-| Fabric API | 0.160.5+26.3 |
-| Java | 25+ |
-
-## 🛠️ Building from Source
-
-```bash
-git clone <repository-url>
-cd sleep-plus-26.3
-./gradlew build
+| Sleep until morning | Get **Alertness** for 5 minutes |
+| Get up on your own at night | No effect |
+| Try to sleep with monsters nearby | Monsters get **highlighted** for 3 seconds |
