@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "sleepplus",
+	"version": "${version}",
+	"name": "Sleep+",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"F2D"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/FLY2DIE",
+		"sources": "https://github.com/fly2die/totemplus"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sleepplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.f2d.sleepplus.SleepPlus"
+		],
+		"client": [
+			"com.f2d.sleepplus.client.SleepPlusClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
